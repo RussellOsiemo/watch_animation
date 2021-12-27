@@ -2,6 +2,14 @@ body {
     background: rgb(196, 76, 76);
 }
 
+.hour_maker {
+    fill: transparent;
+    stroke: #f0f0c9;
+    stroke-dasharray: 0.2, 4.8;
+    stroke-dashoffset: 0.1;
+    stroke-width: 7;
+}
+
 .minute_maker {
     fill: transparent;
     stroke: #0f0e0e;
@@ -10,11 +18,16 @@ body {
     stroke-width: 7;
 }
 
-.hour_maker {
-    fill: transparent;
-    stroke: #f0f0c9;
-    stroke: #d3c5c5;
-    stroke-dasharray: 0.2, 4.8;
-    stroke-dashoffset: 0.1;
+.hand {
+    stroke: #ffffff;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+.hand--thick {
     stroke-width: 7;
+}
+
+.hand--second {
+    stroke: yellow;
 }
