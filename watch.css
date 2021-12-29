@@ -1,8 +1,12 @@
 body {
-    background: rgb(196, 76, 76);
+    background: rgb(35, 13, 160);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.hour_maker {
+.hour_marker {
     fill: transparent;
     stroke: #f0f0c9;
     stroke-dasharray: 0.2, 4.8;
@@ -10,7 +14,7 @@ body {
     stroke-width: 7;
 }
 
-.minute_maker {
+.minute_marker {
     fill: transparent;
     stroke: #0f0e0e;
     stroke-dasharray: 0.2, 0.8;
@@ -29,5 +33,5 @@ body {
 }
 
 .hand--second {
-    stroke: yellow;
+    stroke: rgb(224, 11, 11);
 }
